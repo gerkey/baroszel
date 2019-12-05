@@ -13,6 +13,6 @@ cmake_external(
 cmake_external(
   name = "ament_cmake_core",
   lib_source = "@ament_cmake_core//:all",
-  deps = [":ament_package"]
+  deps = [":ament_package"],
   headers_only = True,
 )
